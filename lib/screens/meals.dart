@@ -14,7 +14,7 @@ class MealsScreen extends StatelessWidget {
     if (meals.isEmpty) {
       content = const Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.min,
           children: [
             Text('Uh oh!'),
             SizedBox(height: 16),
