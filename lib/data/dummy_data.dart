@@ -68,7 +68,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://www.seriouseats.com/thmb/CpfMCdoSDXTdR6C0KXEiIvM-9Jc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140818-tomato-sauce-vicky-wasik-3-5a82a74045764203a01410754b129601.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',

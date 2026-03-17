@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
+import 'package:meals/widgets/meal_item.dart';
 
 class MealsScreen extends StatelessWidget {
   const MealsScreen({super.key, required this.title, required this.meals});
@@ -16,9 +17,9 @@ class MealsScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Uh oh!'),
+            Text('Uh oh!', style: TextStyle(color: Colors.white),),
             SizedBox(height: 16),
-            Text('Try selecting a different category!'),
+            Text('Try selecting a different category!', style: TextStyle(color: Colors.white)),
           ],
         ),
       );
@@ -26,7 +27,7 @@ class MealsScreen extends StatelessWidget {
       content = ListView.builder(
         itemCount: meals.length,
         itemBuilder: (ctx, index) {
-          return Text(meals[index].title);
+          return MealItem(meal: meals[index]);
         },
       );
     }
