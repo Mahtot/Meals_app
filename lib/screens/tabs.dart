@@ -69,7 +69,7 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
       );
 
       setState(() {
-        _selectedFilters = result ?? kInitialFileters;
+        _selectedFilters = result ?? kInitialFilters;
       });
     }
   }
