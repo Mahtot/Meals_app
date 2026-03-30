@@ -9,14 +9,11 @@ final theme = ThemeData(
     seedColor: const Color.fromARGB(255, 131, 57, 0),
   ),
   useMaterial3: true,
-  textTheme: GoogleFonts.latoTextTheme(
-    
-    ),
+  textTheme: GoogleFonts.latoTextTheme(),
 );
 
 void main() {
-  runApp(const 
-  ProviderScope(child:App()));
+  runApp(const ProviderScope(child: App()));
 }
 
 class App extends StatelessWidget {
